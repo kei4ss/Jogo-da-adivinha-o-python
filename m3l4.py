@@ -68,13 +68,13 @@ while loop_principal:
 
         if tema == 0: # para animais
             temaEscolhido = "🐾 animais"
-            listaDeElementos = animais.copy()
+            listaDeElementos = animais[::]
         elif tema == 1: # para profissoes
             temaEscolhido = "💪 profissoes"
-            listaDeElementos = profissoes.copy()
+            listaDeElementos = profissoes[::]
         elif tema == 2: # para personagens de anime
             temaEscolhido = "🎌 personagens de anime"
-            listaDeElementos = personagens_anime.copy()
+            listaDeElementos = personagens_anime[::]
 
         print("Tema sortado: " + temaEscolhido)
         time.sleep(0.5)
